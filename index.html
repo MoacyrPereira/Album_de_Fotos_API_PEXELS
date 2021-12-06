@@ -1,85 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="PT-br">
 <head>
-
-	<title>Teste Leadster</title>
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/css/estilo.css">
+	<title>Galeria de fotos</title>	
+	<link rel="stylesheet" href="./estilo/style.css">
+	<link rel="shortcut icon" href="camera.ico" type="image/x-icon">
 
 </head>
 
-<body>  <!--563492ad6f917000010000016d8b085600ac44f39320d61e6d8f7ed9-->
-
+<body> 
+	
 	<section>
 
-		<div class="container"><!--Inicio do Container-->
+		<div class="container"><!--Início do Container-->
 
-			<div class="header">
-				<h1 class="logo">Galeria de Fotos</h1>
+			<div class="header"> <!--Início do Cabeçalho-->
+				<h1 class="logo">Galeria <ion-icon class="v-middle" name="camera"></ion-icon></h1>
 				<form>
-					<input type="text" placeholder="Pesquisar Imagens">
+					<input type="text" placeholder="Pesquisar...">
 					<ion-icon name="search-outline"></ion-icon>
 				</form>
-			</div>
+			</div> <!--Fim do Cabeçalho-->
 
-
-
-				<div class="galeria"> <!--Inicio da Galeria-->
-
-					<div class="item">
-						<a href="#">
-							<img src="./img/img-1-min.jpg" alt="img">
-							<h3>Nome da Fotografia</h3>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="#">
-							<img src="./img/img-2-min.jpg" alt="img">
-							<h3>Nome da Fotografia</h3>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="#">
-							<img src="./img/img-3-min.jpg" alt="img">
-							<h3>Nome da Fotografia</h3>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="#">
-							<img src="./img/img-4-min.jpg" alt="img">
-							<h3>Nome da Fotografia</h3>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="#">
-							<img src="./img/img-5-min.jpg" alt="img">
-							<h3>Nome da Fotografia</h3>
-						</a>
-					</div>
-
-					<div class="item">
-						<a href="#">
-							<img src="./img/img-6-min.jpg" alt="img">
-							<h3>Nome da Fotografia</h3>
-						</a>
-					</div>
-
+				<div class="galeria"> <!--Início da Galeria-->					
 				</div> <!--Fim da Galeria-->
+
+				<a class="load-more" data-img="curated">Mostrar mais</a>
 
 		</div> <!--Fim do Container-->
 
 	</section>
 
 
-
-
-
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>

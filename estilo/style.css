@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+.v-middle {
+    vertical-align: middle;
+}
 
 img {
     height: 100%;
@@ -32,13 +35,14 @@ section {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #fff !important;
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
     box-shadow: 0px 0px 61px 7px rgba(0, 0, 0, 0.582);
     padding: 50px 20px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .header {
@@ -54,6 +58,10 @@ section {
     letter-spacing: -2px;
 }
 
+.header h1:hover {
+    cursor: pointer;
+}
+
 form {
     margin-top: 20px;
     width: 80%;
@@ -63,18 +71,19 @@ form {
 
 input {
     border: none;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.479);
+    border-bottom: 2px
+    solid rgba(128, 128, 128, 0.479);
     margin-bottom: 10px;
     font-size: 20px;
     outline: none;
-    color: gray;
+    color: gray !important;
     background-color: transparent;
     width: 100%;
 }
 
 input::placeholder {
     opacity: 0,5;
-    color: gray;
+    color: gray !important;
     font-family: 'Montserrat';
     font-weight: 500;
 }
@@ -124,7 +133,18 @@ form ion-icon {
     bottom: 0;
 }
 
-
+.load-more {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: black;
+    padding: 20px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
 
 
 
